@@ -65,6 +65,9 @@ switch ($menu) {
         echo ("O fatorial é: $fatorial");
         break;
 
+        case '3':
+            echo ("Ao quadrado resultante do número inserido é: " . ($calculo->numero * $calculo->numero));
+
     default:
         # code...
         break;
